@@ -13,10 +13,6 @@ function  Queue(capacity)
 	this.pushIndex=0;
 }
 
-
-/*
- * checks if the array is not full pushes to the last index till it is full 
- */	
 Queue.prototype.push=function(item)
 {
 	if(item===undefined)
@@ -24,8 +20,6 @@ Queue.prototype.push=function(item)
 		console.log("undefined items are not allowed");
 		return;
 	}
-
-	//TODO check if array is already full
 	if(this.pushIndex<this.capacity){
 		if(this.array[this.pushIndex]===undefined) //check if next location is empty
 		{
@@ -57,15 +51,10 @@ Queue.prototype.push=function(item)
 	}
 };
 
-
-/*
- * pops element if POPIndex != capacit    
- */	
 Queue.prototype.pop=function()
 {
 		var item=this.array[this.popIndex];
-	if(item!=undefined)
-		{	
+	if(item!==undefined){
 	    this.array[this.popIndex]=undefined;
 		if(this.popIndex<this.capacity-1)
 		{
