@@ -1,5 +1,5 @@
-{"Name":"Raju","age":"24","Designation":"Designer","Salary":"10000","Address":{"ciry":"kanpur","pin":"001"}}
-{"Name":"Daljeet","Last_Name":"Singh","age":"24","Designation":"Engineer","Salary":"5000"}
-{"Name":"Raju","Last_Name":"Rastogi","age":"29","Designation":"Engineer","Salary":"30000","Address":{"ciry":"kanpur","pin":"001"}}
-{"Name":"Raju","Last_Name":"Rastogi","age":"26","Designation":"Designer","Salary":"20000","Address":{"ciry":"jaipur","pin":"002"}}
-{"Name":"Ramesh","age":"24","Designation":"Designer","Salary":"30000","Address":{"ciry":"kashi","pin":"002"}}
+{"Name":"Raju","age":24,"Designation":"Designer","Salary":10000,"Address":{"ciry":"kanpur","pin":1}}
+{"Name":"Daljeet","Last_Name":"Singh","age":24,"Designation":"Engineer","Salary":5000}
+{"Name":"Raju","Last_Name":"Rastogi","age":29,"Designation":"Engineer","Salary":30000,"Address":{"ciry":"kanpur","pin":1}}
+{"Name":"Raju","Last_Name":"Rastogi","age":26,"Designation":"Designer","Salary":20000,"Address":{"ciry":"jaipur","pin":2}}
+{"Name":"Ramesh","age":24,"Designation":"Designer","Salary":30000,"Address":{"ciry":"kashi","pin":2}}
