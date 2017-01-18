@@ -14,7 +14,7 @@ db.view('employeeViews/age', function (err, res) {
 	});
 });
 
-db.view('employeeViews/age',{key:'24'}, function (err, res) {
+db.view('employeeViews/age',{key:24}, function (err, res) {
 	console.log("printing after filtering for age :24 "); 
 	res.forEach(function(key, row, id) {
 		console.log('%s: %s', key, row);
@@ -23,6 +23,13 @@ db.view('employeeViews/age',{key:'24'}, function (err, res) {
 
 db.view('employeeViews/age',{descending:true}, function (err, res) {
 	console.log("printing in descending order "); 
+	res.forEach(function(key, row, id) {
+		console.log('%s: %s', key, row);
+	});
+});
+
+db.view('employeeViews/age',{startkey:25}, function (err, res) {
+	console.log("printing all employees with age greater than equal to 25 "); 
 	res.forEach(function(key, row, id) {
 		console.log('%s: %s', key, row);
 	});
